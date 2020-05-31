@@ -1,7 +1,10 @@
-#Ambiente de teste servidores
+---
+  - name: playbook Ansible
+    hosts: all
+    roles:
+      - common      
+...
 
-[servidores]
-192.168.0.64
 
 
 
