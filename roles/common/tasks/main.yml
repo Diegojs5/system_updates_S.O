@@ -68,14 +68,6 @@
      shell="/bin/bash"
      home="/home/ansible"
      password="senha"
-     
-#---Instalação Chocolaty Windows---
-
-- name: Ensure Chocolatey installed from internal repo
-  win_chocolatey:
-    name: chocolatey
-    state: present
-    source: http://script/url/from/generic/tab/ChocolateyInstall.ps1
 
 #--- TimeZone
 
