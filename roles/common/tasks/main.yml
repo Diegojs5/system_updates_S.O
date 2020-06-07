@@ -35,7 +35,17 @@
    when: ansible_distribution == 'CentOS' or ansible_distribution == 'RedHat'
 
  - name: Instalação de pacotes - RedHat/CentOS
-   yum:  name={{common_packages_redhat}} state=latest 
+   yum:  name={{common_packages_redhat}} state=latest
+   vars:
+    commons_packages_redhat:
+     - git
+     - gcc
+     - vim
+     - "Development Tools"
+     - net-tools
+     - nmap
+     - wet
+     - screen
    when: ansible_distribution == 'CentOS' or ansible_distribution == 'RedHat'
 
  - name: Remocao de  pacotes desnecessarios
