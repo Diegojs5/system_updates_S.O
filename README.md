@@ -1,5 +1,5 @@
-# system_linux_windows
-Padronização do sistema operacional GNU\LINUX e Window (melhor esforço).
+# system_linux
+Padronização do sistema operacional GNU\LINUX.
 
 Seleção de pacotes e atualização do sistema operacional.
 Configuração do arquivo SSH, criação de usuario, configuração amigavel do editor de texto vim. 
